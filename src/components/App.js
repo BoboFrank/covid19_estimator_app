@@ -4,9 +4,9 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 const App = () => {
     return (
         <div className='App'>
-            <Navbar dark color='primary'>
+            <Navbar light color='light'>
                 <div className='container'>
-                    <NavbarBrand href='/'>My Nav Bar</NavbarBrand>
+                    <NavbarBrand href='/'>My Covid Estimator APP</NavbarBrand>
                 </div>
             </Navbar>
         </div>

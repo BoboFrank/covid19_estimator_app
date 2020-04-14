@@ -136,7 +136,8 @@ class Forms extends Component {
                                     <FormFeedback>{errors.totalHospitalBeds}</FormFeedback>
                                 </Col>
                             </FormGroup>
-                            <Label htmlFor='periodType' md={2}>Type of Period</Label>
+                            <FormGroup row>
+                            <Label htmlFor='periodType' md={2}>Choose Period Type</Label>
                                 <Col md={{size: 4, offset: 1}}>
                                         <Input type='select' name='periodType'
                                         value={this.state.periodType}
@@ -151,6 +152,7 @@ class Forms extends Component {
                                         </Input>
                                         <FormFeedback>{errors.periodType}</FormFeedback>
                                 </Col>
+                            </FormGroup>
                             <FormGroup row>
                                 <Col md={{size: 10, offset: 2}}>
                                     <Button type='submit' name='Submit Button' color='primary' onClick={this.handleSubmit}>
