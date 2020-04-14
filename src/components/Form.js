@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, Col, FormFeedback } from "reactstrap";
+import Button from "reactstrap/lib/Button";
+import Form from "reactstrap/lib/Form";
+import FormGroup from "reactstrap/lib/FormGroup";
+import Label from "reactstrap/lib/Label";
+import Input from "reactstrap/lib/Input";
+import Col from "reactstrap/lib/Col";
+import FormFeedback from "reactstrap/lib/FormFeedback";
 
 class Forms extends Component {
     constructor(props){
@@ -155,7 +161,7 @@ class Forms extends Component {
                             </FormGroup>
                             <FormGroup row>
                                 <Col md={{size: 10, offset: 2}}>
-                                    <Button type='submit' name='Submit Button' color='primary' onClick={this.handleSubmit}>
+                                    <Button type='submit' name='Submit Button' color='secondary' onClick={this.handleSubmit}>
                                         Send Data
                                     </Button>
                                 </Col>

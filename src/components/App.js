@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Navbar from 'reactstrap/lib/Navbar';
+import NavbarBrand from 'reactstrap/lib/NavbarBrand';
 
 const App = () => {
     return (
