@@ -155,7 +155,7 @@ class Forms extends Component {
                             </FormGroup>
                             <FormGroup row>
                                 <Col md={{size: 10, offset: 2}}>
-                                    <Button type='submit' name='Submit Button' color='secondary' onClick={this.handleSubmit}>
+                                    <Button type='submit' name='Submit Button' color='primary' onClick={this.handleSubmit}>
                                         Send Data
                                     </Button>
                                 </Col>
