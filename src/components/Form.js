@@ -139,7 +139,7 @@ class Forms extends Component {
                             <FormGroup row>
                             <Label htmlFor='periodType' md={2}>Choose Period Type</Label>
                                 <Col md={{size: 4, offset: 1}}>
-                                        <Input type='select' name='periodType'
+                                        <Input type='select' id='periodType' name='periodType'
                                         value={this.state.periodType}
                                         valid={errors.periodType === ''}
                                         invalid={errors.periodType !== ''}
