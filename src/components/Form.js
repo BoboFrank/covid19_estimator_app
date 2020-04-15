@@ -152,7 +152,6 @@ class Forms extends Component {
                                         onBlur={this.handleBlur('periodType')}
                                         onChange={this.handleInputChange}
                                         data-period-type='data-period-type'>
-                                            <option>Choose...</option>
                                             <option>Days</option>
                                             <option>Weeks</option>
                                             <option>Months</option>
