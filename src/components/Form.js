@@ -96,7 +96,7 @@ class Forms extends Component {
                                     invalid={errors.population !== ''}
                                     onBlur={this.handleBlur('population')}
                                     onChange={this.handleInputChange}
-                                    attribute='data-population'/>
+                                    data-population='data-population'/>
                                 <FormFeedback>{errors.population}</FormFeedback>
                                 </Col>
                             </FormGroup>
@@ -110,7 +110,7 @@ class Forms extends Component {
                                     invalid={errors.timeToElapse !== ''}
                                     onBlur={this.handleBlur('timeToElapse')}
                                     onChange={this.handleInputChange} 
-                                    attribute='data-time-to-elapse'/>
+                                    data-time-to-elapse='data-time-to-elapse'/>
                                     <FormFeedback>{errors.timeToElapse}</FormFeedback>
                                 </Col>
                             </FormGroup>
@@ -124,7 +124,7 @@ class Forms extends Component {
                                     invalid={errors.reportedCases !== ''}
                                     onBlur={this.handleBlur('reportedCases')}
                                     onChange={this.handleInputChange} 
-                                    attribute='data-reported-cases'/>
+                                    data-reported-cases='data-reported-cases'/>
                                     <FormFeedback>{errors.reportedCases}</FormFeedback>
                                 </Col>
                             </FormGroup>
@@ -138,7 +138,7 @@ class Forms extends Component {
                                     invalid={errors.totalHospitalBeds !== ''}
                                     onBlur={this.handleBlur('totalHospitalBeds')}
                                     onChange={this.handleInputChange} 
-                                    attribute='data-total-hospital-beds'/>
+                                    data-total-hospital-beds='data-total-hospital-beds'/>
                                     <FormFeedback>{errors.totalHospitalBeds}</FormFeedback>
                                 </Col>
                             </FormGroup>
@@ -151,7 +151,7 @@ class Forms extends Component {
                                         invalid={errors.periodType !== ''}
                                         onBlur={this.handleBlur('periodType')}
                                         onChange={this.handleInputChange}
-                                        attribute='data-period-type'>
+                                        data-period-type='data-period-type'>
                                             <option>Choose...</option>
                                             <option>Days</option>
                                             <option>Weeks</option>
@@ -162,7 +162,7 @@ class Forms extends Component {
                             </FormGroup>
                             <FormGroup row>
                                 <Col md={{size: 10, offset: 2}}>
-                                    <Button type='submit' name='Submit Button' color='secondary' onClick={this.handleSubmit} attribute='data-go-estimate'>
+                                    <Button type='submit' name='Submit Button' color='secondary' onClick={this.handleSubmit} data-go-estimate='data-go-estimate'>
                                         Send Data
                                     </Button>
                                 </Col>
